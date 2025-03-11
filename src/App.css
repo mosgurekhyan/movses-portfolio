@@ -1,0 +1,55 @@
+.app {
+    width: 100%;
+    height: fit-content;
+    padding: 60px 35px;
+    background: #1F1F1F;
+}
+
+.app_container {
+    width: 100%;
+    height: fit-content;
+    padding-left: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+@media (320px <= width <= 600px) {
+    .app {
+        padding: 30px 20px;
+    }
+    
+    .app_container {
+        padding: 0;
+        gap: 70px;
+    }
+}
+
+@media (601px <= width <= 900px) {
+    .app {
+        padding: 45px 35px;
+    }
+    
+    .app_container {
+        padding: 0;
+        gap: 100px;
+    }
+}
+
+@media (901px <= width <= 1240px) {
+    .app {
+        padding: 50px 35px;
+    }
+    
+    .app_container {
+        padding: 0;
+        gap: 125px;
+    }
+}
+
+@media (1821px <= width) {    
+    .app_container {
+        padding: 0;
+        align-items: center;
+    }
+}

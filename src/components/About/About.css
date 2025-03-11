@@ -1,0 +1,23 @@
+.about_story {
+    color: #999;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+@media (320px <= width <= 600px) {
+    .about_story {
+        font-size: 14px;
+    }
+}
+
+@media (601px <= width <= 900px) {
+
+}
+
+@media (901px <= width <= 1240px) {
+
+}
+
+@media (1821px <= width) {
+
+}

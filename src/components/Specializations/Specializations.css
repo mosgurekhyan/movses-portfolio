@@ -1,0 +1,93 @@
+.specializations {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.specialization {
+    border: 1px solid #565656;
+    border-radius: 20px;
+    width: 100%;
+    padding: 44px 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.specialization_container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.specialization i {
+    color: #28e98c;
+    font-size: 30px;
+}
+
+.specialization_title {
+    font-weight: 300;
+    font-size: 24px;
+    color: #fff;
+}
+
+.specialization_text {
+    margin-bottom: 25px;
+    color: #999;
+    font-size: 14px;
+}
+
+.specialization_projects {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+@media (320px <= width <= 600px) {    
+    .specialization {
+        border-radius: 15px;
+        padding: 15px 20px;
+    }
+    
+    .specialization i {
+        font-size: 20px;
+    }
+    
+    .specialization_title {
+        font-size: 18px;
+    }
+    
+    .specialization_text {
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    
+    .specialization_projects {
+        font-size: 10px;
+    }
+}
+
+@media (601px <= width <= 900px) {    
+    .specialization {
+        padding: 30px 25px;
+    }
+    
+    .specialization i {
+        font-size: 25px;
+    }
+    
+    .specialization_title {
+        font-size: 22px;
+    }
+    
+    .specialization_text {
+        margin-bottom: 20px;
+    }
+}
+
+@media (901px <= width <= 1240px) {
+
+}
+
+@media (1821px <= width) {
+
+}

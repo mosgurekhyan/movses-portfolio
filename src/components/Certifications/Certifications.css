@@ -1,0 +1,50 @@
+.certifications {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.certification {
+    border: 1px solid #999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.certification_text {
+    color: #fff;
+    width: 450px;
+    font-size: 16px;
+}
+
+.certification i {
+    color: #27D180;
+}
+
+@media (320px <= width <= 600px) {
+    .certifications {
+        gap: 20px;
+    }
+    
+    .certification {
+        padding: 10px;
+    }
+    
+    .certification_text {
+        width: calc(100% - 50px);
+        font-size: 14px;
+    }
+}
+
+@media (901px <= width <= 1240px) {
+    .certification_text {
+        width: calc(100% - 50px);
+    }
+}
+
+@media (1821px <= width) {
+
+}
