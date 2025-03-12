@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Pragmatica';
   src: url('./assets/fonts/Pragmatica-Book.ttf') format('truetype');
 }
 
@@ -7,10 +7,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Inter;
+  font-family: Pragmatica;
   transition: .3s;
   outline: none;
   user-select: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 img {
