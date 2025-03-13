@@ -1,5 +1,5 @@
 import './Profile.css'
-// import profile from '../../assets/images/profile.jpg'
+import profile from '../../assets/images/profile.jpg'
 
 function Profile() {
   return (
@@ -8,8 +8,8 @@ function Profile() {
         <p className="profile_name">Movses</p>
         <p className="profile_ocupation">Full Stack JS Developer</p>
       </div>
-      {/* <img className='profile_img' alt='My Intro video' /> */}
-      <div className="profile_video">My Intro video</div>
+      <img src={profile} className='profile_video' />
+      {/* <div className="profile_video">My Intro video</div> */}
       <a href="mailto:gurekhyanmovses2001@gmail.com" target="_blank" rel="noopener noreferrer" className="profile_email">gurekhyanmovses2001@gmail.com</a>
       <p className="profile_location">Based in Yerevan, AM</p>
       <div className="profile_links_container">
