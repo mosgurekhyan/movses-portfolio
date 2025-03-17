@@ -10,7 +10,7 @@ function Profile() {
       </div>
       <img src={profile} className='profile_video' />
       {/* <div className="profile_video">My Intro video</div> */}
-      <a href="mailto:gurekhyanmovses2001@gmail.com" target="_blank" rel="noopener noreferrer" className="profile_email">gurekhyanmovses2001@gmail.com</a>
+      <a href="mailto:gurekhyanmovses2001@gmail.com" className="profile_email">gurekhyanmovses2001@gmail.com</a>
       <p className="profile_location">Based in Yerevan, AM</p>
       <div className="profile_links_container">
         <a href="https://github.com/mosgurekhyan" target="_blank" rel="noopener noreferrer" className="profile_link_circle">
