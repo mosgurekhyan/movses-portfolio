@@ -13,8 +13,8 @@ function Portfolio() {
         {
           WORKS?.map(e => 
             <a href={e.link} target="_blank" rel="noopener noreferrer" key={e.id} className="work">
-              <img loading='lazy' src={e.img} alt="" className="work_img" />
               <p className="work_name">{e.name}</p>
+              <img loading='lazy' src={e.img} alt="" className="work_img" />
             </a>
           )
         }

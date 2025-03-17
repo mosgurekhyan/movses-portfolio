@@ -1,4 +1,4 @@
-export const SKILLS = [
+export const HARD_SKILLS  = [
   {
     id: '1',
     name: 'Html5',
@@ -38,30 +38,5 @@ export const SKILLS = [
     id: '8',
     name: 'GitHub',
     icon: 'fa-brands fa-github'
-  },
-  {
-    id: '9',
-    name: 'Time management',
-    icon: 'fa-solid fa-hourglass-half'
-  },
-  {
-    id: '10',
-    name: 'Accountability',
-    icon: 'fa-solid fa-file-contract'
-  },
-  {
-    id: '11',
-    name: 'Self-learning',
-    icon: 'fa-solid fa-book-open'
-  },
-  {
-    id: '12',
-    name: 'Patience',
-    icon: 'fa-solid fa-dove'
-  },
-  {
-    id: '13',
-    name: 'Problem solving',
-    icon: 'fa-solid fa-brain'
   }
 ]

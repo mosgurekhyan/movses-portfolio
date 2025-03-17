@@ -6,7 +6,7 @@ function Specializations() {
     <div id='specializations' className='container'>
       <span className="name">
         <i className="fa-solid fa-bars-staggered"></i>
-        services
+        expertise
       </span>
       <p className='title'>My <span className='text_span'>Specializations</span></p>
       <div className="specializations">

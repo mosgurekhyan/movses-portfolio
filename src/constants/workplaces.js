@@ -38,7 +38,7 @@ export const WORKPLACES = [
     id: '5',
     company: 'Nexoos Group',
     position: 'Frontend Developer',
-    link: 'https://www.nexusgroup.com',
+    link: 'https://www.nexoosgroup.com',
     date: '02/23 - 02/24'
   }
 ]

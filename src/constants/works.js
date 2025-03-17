@@ -8,38 +8,38 @@ import img6 from '../assets/images/wine.png'
 export const WORKS = [
   {
     id: '1',
-    link: 'https://www.nexusgroup.com',
-    name: 'Nexoos group',
+    link: 'https://www.nexoosgroup.com',
+    name: 'Nexoos Web & Marketing',
     img: img1
   },
   {
     id: '2',
     link: 'https://qodprocy.com',
-    name: 'Qo dprocy',
+    name: 'Qo Dprocy Educational Institution',
     img: img2
   },
   {
     id: '3',
     link: 'https://www.simplex.com',
-    name: 'Simplex',
+    name: 'Simplex - Buy and Sell Crypto',
     img: img3
   },
   {
     id: '4',
     link: 'https://www.theboilerinstallationspecialists.com',
-    name: 'The boiler installation specialists',
+    name: 'The Boiler Installation Specialists',
     img: img4
   },
   {
     id: '5',
     link: 'https://develop.rb-design.ru',
-    name: 'Rb design',
+    name: 'Rb Design',
     img: img5
   },
   {
     id: '6',
     link: 'https://manukyan.wine',
-    name: 'Manukyan wine',
+    name: 'Manukyan Wine',
     img: img6
   }
 ]
