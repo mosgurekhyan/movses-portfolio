@@ -8,8 +8,8 @@ function Profile() {
         <p className="profile_name">Movses</p>
         <p className="profile_ocupation">Full Stack JS Developer</p>
       </div>
-      <img src={profile} className='profile_video' />
-      {/* <div className="profile_video">My Intro video</div> */}
+      <img src={profile} alt="" className="profile_video" />
+      <a href="https://youtu.be/gbQYktfSQZY" target="_blank" rel="noopener noreferrer" className="profile_link">Watch my intro</a>
       <a href="mailto:gurekhyanmovses2001@gmail.com" className="profile_email">gurekhyanmovses2001@gmail.com</a>
       <p className="profile_location">Based in Yerevan, AM</p>
       <div className="profile_links_container">

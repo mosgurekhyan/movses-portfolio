@@ -36,11 +36,15 @@
     border-radius: 30px;
     width: 100%;
     /* height: 210px; */
-    /* object-fit: cover; */
     color: #fff;
     display: grid;
     place-items: center;
     border: solid #fff;
+}
+
+.profile_link {
+    color: #fff;
+    text-decoration: none;
 }
 
 .profile_email {
@@ -51,7 +55,7 @@
     margin-top: 10px;
 }
 
-.profile_email:hover {
+:is(.profile_email, .profile_link):hover {
     color: #28e98c;
 }
 
