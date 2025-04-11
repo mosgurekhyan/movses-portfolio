@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 35px 25px;
-    gap: 20px;
+    padding: 15px 25px;
+    gap: 16px;
     position: fixed;
     top: 60px;
 }
@@ -35,7 +35,6 @@
 .profile_video {
     border-radius: 30px;
     width: 100%;
-    /* height: 210px; */
     color: #fff;
     display: grid;
     place-items: center;
@@ -71,8 +70,8 @@
 }
 
 .profile_link_circle {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     border: 2px solid #565656;
     text-decoration: none;
@@ -92,7 +91,7 @@
 
 .profile_btn {
     width: 100%;
-    padding: 15px 0;
+    padding: 10px 0;
     border-radius: 30px;
     display: flex;
     background: #20c997;
@@ -176,10 +175,6 @@
         font-size: 12px;
     }
 
-    /* .profile_video {
-        height: 410px;
-    } */
-
     .profile_btn {
         font-weight: 900;
     }
@@ -191,10 +186,6 @@
         position: static;
         margin-bottom: 125px;
     }
-
-    /* .profile_video {
-        height: 350px;
-    } */
 
     .profile_btn {
         font-weight: 700;
@@ -218,10 +209,6 @@
     .profile_ocupation {
         font-size: 16px;
     }
-
-    /* .profile_video {
-        height: 250px;
-    } */
 
     .profile_email {
         font-size: 18px;

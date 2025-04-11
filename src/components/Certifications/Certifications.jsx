@@ -5,7 +5,7 @@ function Certifications() {
   return (
     <div id='certifications' className='container'>
       <span className="name">
-        <i className="fa-solid fa-house"></i>
+        <i className="fa-solid fa-ribbon"></i>
         certifications
       </span>
       <p className='title'>Certifications</p>
