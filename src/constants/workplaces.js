@@ -28,13 +28,6 @@ export const WORKPLACES = [
     date: '02/24 - 12/24'
   },
   {
-    id: '4',
-    company: 'Lintech Systems',
-    position: 'Full Stack JS Developer',
-    link: '',
-    date: '02/24 - 06/24'
-  },
-  {
     id: '5',
     company: 'Nexoos Group',
     position: 'Frontend Developer',
