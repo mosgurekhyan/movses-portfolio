@@ -30,7 +30,7 @@ export const WORKPLACES = [
   {
     id: '5',
     company: 'Nexoos Group',
-    position: 'Frontend Developer',
+    position: 'Full Stack JS Developer',
     link: 'https://www.nexoosgroup.com',
     date: '02/23 - 02/24'
   }
