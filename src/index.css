@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('./assets/fonts/Pragmatica-Book.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Pragmatica;
+  transition: .3s;
+  outline: none;
+  user-select: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  object-fit: contain;
+}
+
+.name {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 30px;
+  border-radius: 30px;
+  font-size: 12px;
+  color: #fff;
+  padding: 0 17px;
+  border: 1px solid #565656;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 770px;
+}
+
+.title {
+  font-size: 48px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.text_span,
+.active {
+  color: #28e98c;
+}
+
+@media (320px <=width <=600px) {
+  .name {
+    font-size: 12px;
+    padding: 0 14px;
+    margin-bottom: 30px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (601px <=width <=900px) {
+  .name {
+    margin-bottom: 40px;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (901px <= width <= 1240px) {
+  .name {
+    margin-bottom: 45px;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+}

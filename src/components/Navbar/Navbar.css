@@ -1,0 +1,47 @@
+nav {
+    border: 1px solid #575757;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 50px;
+    padding: 24px 0;
+    position: fixed;
+    top: 50%;
+    right: 50px;
+    transform: translate(-50%, -50%);
+    gap: 15px;
+    z-index: 100;
+    background: #1F1F1F;
+}
+
+nav i {
+    color: #999;
+    font-size: 16px;
+}
+
+nav i:hover {
+    cursor: pointer;
+    color: #28e98c;
+}
+
+@media (width <= 1241px) {
+    nav {
+        display: none;
+    }
+}
+
+@media (1821px <= width) {
+    nav {
+        width: 60px;
+        padding: 30px 0;
+        gap: 25px;
+        left: calc(50% + 455px);
+        transform: translate(-50%, -50%);
+    }
+    
+    nav i {
+        font-size: 20px;
+    }
+}
