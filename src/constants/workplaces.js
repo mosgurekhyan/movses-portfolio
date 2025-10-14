@@ -11,27 +11,31 @@ export const WORKPLACES = [
     company: 'Meduzee Creative Agency',
     position: 'Full Stack JS Developer',
     link: 'https://meduzee.com/',
-    date: '10/25 - Present'
+    date: '10/25 - Present',
+    traffic: 'Part-time'
   },
   {
     id: '1',
     company: 'Faan Technologies',
     position: 'Full Stack JS Developer',
     link: 'https://faan.zone',
-    date: '01/25 - 03/25'
+    date: '01/25 - 03/25',
+    traffic: 'Full-time'
   },
   {
     id: '2',
     company: 'Qo dprocy',
     position: 'Frontend course creator / Tutor',
     link: 'https://qodprocy.com',
-    date: '07/24 - 12/24'
+    date: '07/24 - 12/24',
+    traffic: 'Part-time'
   },
   {
     id: '5',
     company: 'Nexoos Group',
     position: 'Full Stack JS Developer',
     link: 'https://www.nexoosgroup.com',
-    date: '02/23 - 12/24'
+    date: '02/23 - 12/24',
+    traffic: 'Full-time'
   }
 ]
