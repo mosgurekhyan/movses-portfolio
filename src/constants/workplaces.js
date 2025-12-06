@@ -1,13 +1,13 @@
 export const WORKPLACES = [
   {
-    id: '11',
+    id: '1',
     company: 'Yerevan State University, Yerevan',
     position: "Bachelor's degree in the Faculty of Applied Mathematics and Informatics",
     link: 'https://www.ysu.am',
     date: '2019 - Present'
   },
   {
-    id: '3',
+    id: '2',
     company: 'Meduzee Creative Agency',
     position: 'Full Stack JS Developer',
     link: 'https://meduzee.com/',
@@ -15,7 +15,7 @@ export const WORKPLACES = [
     traffic: 'Part-time'
   },
   {
-    id: '1',
+    id: '3',
     company: 'Faan Technologies',
     position: 'Full Stack JS Developer',
     link: 'https://faan.zone',
@@ -23,7 +23,7 @@ export const WORKPLACES = [
     traffic: 'Full-time'
   },
   {
-    id: '2',
+    id: '4',
     company: 'Qo dprocy',
     position: 'Frontend course creator / Tutor',
     link: 'https://qodprocy.com',

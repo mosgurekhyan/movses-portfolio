@@ -20,7 +20,7 @@ function Education() {
               <p className="education_date">{e.date}</p>
               <div className="education_detail">
                 <p className="education_detail_title">{e.position}</p>
-                <a href={e.link} target="_blank" rel="noopener noreferrer" className="education_detail_organization">{e.company} &nbsp;&nbsp; · &nbsp;&nbsp; {e.traffic}</a>
+                <a href={e.link} target="_blank" rel="noopener noreferrer" className="education_detail_organization">{e.company} &nbsp;&nbsp; { e.id !== '1' && '·'} &nbsp;&nbsp; {e.traffic}</a>
               </div>
             </div>
           </div>
