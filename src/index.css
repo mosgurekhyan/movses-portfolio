@@ -10,9 +10,12 @@
   font-family: Pragmatica;
   transition: .3s;
   outline: none;
-  user-select: none;
   outline: none;
   -webkit-tap-highlight-color: transparent;
+}
+
+button, a {
+  user-select: none;
 }
 
 img {
