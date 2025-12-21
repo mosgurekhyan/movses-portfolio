@@ -4,7 +4,7 @@ export const WORKPLACES = [
     company: 'Yerevan State University, Yerevan',
     position: "Bachelor's degree in the Faculty of Applied Mathematics and Informatics",
     link: 'https://www.ysu.am',
-    date: '2019 - Present'
+    date: '2019 - 2025'
   },
   {
     id: '2',
