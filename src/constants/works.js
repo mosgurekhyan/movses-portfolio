@@ -6,6 +6,7 @@ import img5 from '../assets/images/design.png'
 import img6 from '../assets/images/wine.png'
 import img7 from '../assets/images/worknet.png'
 import img8 from '../assets/images/gallery.png'
+import img9 from '../assets/images/gegabyte.png'
 
 export const WORKS = [
   {
@@ -13,6 +14,12 @@ export const WORKS = [
     link: 'https://gurekhianart.com',
     name: 'Gallery',
     img: img8
+  },
+  {
+    id: '77',
+    link: 'https://gegabyteauto.am',
+    name: 'Gegabyte Auto',
+    img: img9
   },
   {
     id: '7',
