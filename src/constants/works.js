@@ -2,7 +2,6 @@ import img1 from '../assets/images/nexoos.png'
 import img2 from '../assets/images/qodprocy.png'
 import img3 from '../assets/images/simplex.png'
 import img4 from '../assets/images/boiler.png'
-import img5 from '../assets/images/design.png'
 import img6 from '../assets/images/wine.png'
 import img7 from '../assets/images/worknet.png'
 import img8 from '../assets/images/gallery.png'
@@ -50,12 +49,6 @@ export const WORKS = [
     link: 'https://www.theboilerinstallationspecialists.com',
     name: 'The Boiler Installation Specialists',
     img: img4
-  },
-  {
-    id: '5',
-    link: 'https://develop.rb-design.ru',
-    name: 'Rb Design',
-    img: img5
   },
   {
     id: '6',
