@@ -20,9 +20,19 @@ export const HARD_SKILLS  = [
     icon: 'fa-brands fa-react'
   },
   {
+    id: '61',
+    name: 'Next.js',
+    icon: 'devicon-nextjs-plain'
+  },
+  {
     id: '5',
     name: 'Node',
     icon: 'fa-brands fa-node'
+  },
+  {
+    id: '66',
+    name: 'Nest.js',
+    icon: 'devicon-nestjs-plain'
   },
   {
     id: '6',

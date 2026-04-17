@@ -1,5 +1,5 @@
 import img1 from '../assets/images/nexoos.png'
-// import img2 from '../assets/images/qodprocy.png'
+import img5 from '../assets/images/dk.png'
 import img3 from '../assets/images/simplex.png'
 import img4 from '../assets/images/boiler.png'
 import img6 from '../assets/images/wine.png'
@@ -9,6 +9,12 @@ import img9 from '../assets/images/gegabyte.png'
 import img10 from '../assets/images/yootools.png'
 
 export const WORKS = [
+  {
+    id: '82',
+    link: 'https://dktennisfoundation.com',
+    name: 'DK Tennis Development Foundation',
+    img: img5
+  },
   {
     id: '81',
     link: 'https://yoo.tools',
@@ -39,12 +45,6 @@ export const WORKS = [
     name: 'Nexoos Web & Marketing',
     img: img1
   },
-  // {
-  //   id: '2',
-  //   link: 'https://qodprocy.com',
-  //   name: 'Qo Dprocy Educational Institution',
-  //   img: img2
-  // },
   {
     id: '3',
     link: 'https://www.simplex.com',
