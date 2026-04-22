@@ -3,7 +3,6 @@ import img5 from '../assets/images/dk.png'
 import img3 from '../assets/images/simplex.png'
 import img4 from '../assets/images/boiler.png'
 import img6 from '../assets/images/wine.png'
-import img7 from '../assets/images/worknet.png'
 import img8 from '../assets/images/gallery.png'
 import img9 from '../assets/images/gegabyte.png'
 import img10 from '../assets/images/yootools.png'
@@ -32,12 +31,6 @@ export const WORKS = [
     link: 'https://gegabyteauto.am',
     name: 'Gegabyte Auto',
     img: img9
-  },
-  {
-    id: '7',
-    link: 'https://www.worknet.am',
-    name: 'Job Search Online Platform',
-    img: img7
   },
   {
     id: '1',
