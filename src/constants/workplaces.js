@@ -16,10 +16,10 @@ export const WORKPLACES = [
   },
   {
     id: '3',
-    company: 'Faan Technologies',
+    company: 'Nexoos Group',
     position: 'Full Stack JS Developer',
-    link: 'https://faan.zone',
-    date: '01/25 - 03/25',
+    link: 'https://www.nexoosgroup.com',
+    date: '02/23 - 03/25',
     traffic: 'Full-time'
   },
   {
@@ -29,13 +29,5 @@ export const WORKPLACES = [
     link: 'https://qodprocy.com',
     date: '07/24 - 12/24',
     traffic: 'Part-time'
-  },
-  {
-    id: '5',
-    company: 'Nexoos Group',
-    position: 'Full Stack JS Developer',
-    link: 'https://www.nexoosgroup.com',
-    date: '02/23 - 12/24',
-    traffic: 'Full-time'
   }
 ]
