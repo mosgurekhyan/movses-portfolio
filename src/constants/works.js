@@ -2,12 +2,18 @@ import img1 from '../assets/images/nexoos.png'
 import img5 from '../assets/images/dk.png'
 import img3 from '../assets/images/simplex.png'
 import img4 from '../assets/images/boiler.png'
-import img6 from '../assets/images/wine.png'
-import img8 from '../assets/images/gallery.png'
+import img6 from '../assets/images/solizen.png'
+// import img8 from '../assets/images/gallery.png'
 import img9 from '../assets/images/gegabyte.png'
 import img10 from '../assets/images/yootools.png'
 
 export const WORKS = [
+  {
+    id: '6',
+    link: 'https://solizen.tech',
+    name: 'Solizen Technologies',
+    img: img6
+  },
   {
     id: '82',
     link: 'https://dktennisfoundation.com',
@@ -20,12 +26,12 @@ export const WORKS = [
     name: 'Yoo Tools',
     img: img10
   },
-  {
-    id: '8',
-    link: 'https://gurekhianart.com',
-    name: 'Gallery',
-    img: img8
-  },
+  // {
+  //   id: '8',
+  //   link: 'https://gurekhianart.com',
+  //   name: 'Gallery',
+  //   img: img8
+  // },
   {
     id: '77',
     link: 'https://gegabyteauto.am',
@@ -50,10 +56,10 @@ export const WORKS = [
     name: 'The Boiler Installation Specialists',
     img: img4
   },
-  {
-    id: '6',
-    link: 'https://manukyan.wine',
-    name: 'Manukyan Wine',
-    img: img6
-  }
+  // {
+  //   id: '6',
+  //   link: 'https://manukyan.wine',
+  //   name: 'Manukyan Wine',
+  //   img: img6
+  // }
 ]

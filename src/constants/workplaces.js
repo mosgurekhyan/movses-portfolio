@@ -10,7 +10,7 @@ export const WORKPLACES = [
     id: '2',
     company: 'Meduzee Creative Agency',
     position: 'Full Stack JS Developer',
-    link: 'https://meduzee.com/',
+    link: 'https://meduzee.com',
     date: '10/25 - Present',
     traffic: 'Part-time'
   },
