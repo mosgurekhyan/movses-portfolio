@@ -3,11 +3,18 @@ import img5 from '../assets/images/dk.png'
 import img3 from '../assets/images/simplex.png'
 import img4 from '../assets/images/boiler.png'
 import img6 from '../assets/images/solizen.png'
+import img7 from '../assets/images/list-in-hive.png'
 // import img8 from '../assets/images/gallery.png'
 import img9 from '../assets/images/gegabyte.png'
 import img10 from '../assets/images/yootools.png'
 
 export const WORKS = [
+  {
+    id: '7',
+    link: 'https://listinhive.com/coupons',
+    name: 'List in Hive',
+    img: img7
+  },
   {
     id: '6',
     link: 'https://solizen.tech',

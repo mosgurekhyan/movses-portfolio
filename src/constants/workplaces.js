@@ -8,6 +8,14 @@ export const WORKPLACES = [
   },
   {
     id: '2',
+    company: 'Inspirovate Creatives',
+    position: 'Frontend Developer',
+    link: 'https://inspirovatecreatives.com/',
+    date: '09/26 - Present',
+    traffic: 'Full-time'
+  },
+  {
+    id: '3',
     company: 'Meduzee Creative Agency',
     position: 'Full Stack JS Developer',
     link: 'https://meduzee.com',
@@ -16,7 +24,7 @@ export const WORKPLACES = [
     traffic: 'Part-time'
   },
   {
-    id: '3',
+    id: '4',
     company: 'Nexoos Group',
     position: 'Full Stack JS Developer',
     link: 'https://www.nexoosgroup.com',
@@ -24,7 +32,7 @@ export const WORKPLACES = [
     traffic: 'Full-time'
   },
   {
-    id: '4',
+    id: '5',
     company: 'Qo dprocy',
     position: 'Frontend course creator / Tutor',
     link: 'https://qodprocy.com',
